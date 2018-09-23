@@ -32,6 +32,11 @@ class BluetoothDevice {
         .first;
   }
 
+  setMTU(){
+      FlutterBlue.instance._channel.invokeMethod('setMTU', id.toString());
+      print("setMTU");
+  }
+
   /// Returns a list of Bluetooth GATT services offered by the remote device
   /// This function requires that discoverServices has been completed for this device
   Future<List<BluetoothService>> get services {

@@ -119,6 +119,7 @@ class FlutterBlue {
 
     await _channel.invokeMethod('connect', request.writeToBuffer());
 
+
     subscription = device.onStateChanged().listen(
       (data) {
         if (data == BluetoothDeviceState.connected) {
