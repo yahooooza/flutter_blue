@@ -8,7 +8,7 @@
 
 ## Introduction
 
-FlutterBlue is a bluetooth plugin for [Flutter](http://www.flutter.io), a new mobile SDK to help developers build modern apps for iOS and Android. This is a fork from the well written flutter_blue plugin from paul de marco with the possiblilty to request a new custom MTU. 
+FlutterBlue is a bluetooth plugin for [Flutter](http://www.flutter.io), a new mobile SDK to help developers build modern apps for iOS and Android. This is a fork from the well written flutter_blue plugin from paul de marco with the possiblilty to request a new custom MTU. This added functionality is for Android only.
 
 ## Cross-Platform Bluetooth LE
 FlutterBlue aims to offer the most from both platforms (iOS and Android).
